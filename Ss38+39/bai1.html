@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #f4f6fa;
+        font-family: Arial, Helvetica, sans-serif;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    }
+    .step{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border: 3px solid #ebebeb;
+        border-radius: 50%;
+        color: #9e9e9e;
+        background-color: white;
+    }
+    .step:first-child{
+        border-color: #2987d1;
+    }
+    .frame{
+        display: flex;
+        align-items: center;
+    }
+    .line{
+        width: 80px;
+        height: 5px;
+        background-color: #ebebeb;
+    }
+</style>
+<body>
+    <div class="frame">
+        <div class="step">1</div>
+        <div class="line"></div>
+        <div class="step">2</div>
+        <div class="line"></div>
+        <div class="step">3</div>
+        <div class="line"></div>
+        <div class="step">4</div>
+    </div>
+    <button id="prev" style="padding: 10px; width: 100px; margin: 25px; background-color: #dcdcdc; border: 1px solid transparent; border-radius: 10px; font-weight: 500; color: #fff; margin-left: 75px;">Prev</button>
+    <button id="next" style="padding: 10px; width: 100px; background-color: #2987d1; border: 1px solid transparent; border-radius: 10px; font-weight: 500; color: #fff;">Next</button>
+    <script src="./bai1.js"></script>
+</body>
+</html>
